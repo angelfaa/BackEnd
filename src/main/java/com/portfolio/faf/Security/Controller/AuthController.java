@@ -36,7 +36,7 @@ import org.springframework.validation.BindingResult;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin
+@CrossOrigin (origins="https://frontendproyecto-d638d.web.app")
 public class AuthController {
     @Autowired
     PasswordEncoder passwordEncoder;
